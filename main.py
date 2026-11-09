@@ -2,7 +2,7 @@ Web VPython 3.2
 
 
 
-label(pos=vec(0, 3, 0), text='P형 반도체 시뮬레이터', color= color.white)
+label(pos=vec(0, 3, 0), text='N형 반도체 시뮬레이터', color= color.white)
 
 
 wafer = []
