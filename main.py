@@ -3,8 +3,9 @@ Web VPython 3.2
 
 b =box(color = color.green, pos = vec(-4.3,0,0), size = vec(0.75,6,0.3))
 label(pos=vec(0, 3, 0), text='N형 반도체 시뮬레이터', color= color.white)
-label(pos=vec(0, -3.5, 0), text='상자빨강: 전압O, 초록: 전압X // 1과2로 on/off', color= color.white)
-
+label(pos=vec(0, -3.5, 0), text='1과 2로 전압을 조작하세요.', color= color.white)
+label(pos=vec(0, -4.5, 0), text='빨강색은 전압 on / 초록색은 전압 off', color= color.white)
+label(pos=vec(0, -5.5, 0), text='스페이스바로 전자의 이동을 표현하세요!.', color= color.white)
 
 wafer = []
 
@@ -54,3 +55,4 @@ while True :
     if '2' in k :
         b.color = color.green
         bias = False
+        
